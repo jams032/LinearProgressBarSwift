@@ -2,7 +2,7 @@
 //  CircularProgressSwiftTests.swift
 //  CircularProgressSwiftTests
 //
-//  Created by MacBook Pro on 17/7/19.
+//  Created by Jamshed Alam on 17/7/19.
 //  Copyright © 2019 Jamshed Alam. All rights reserved.
 //
 
