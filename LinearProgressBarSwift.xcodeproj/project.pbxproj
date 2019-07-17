@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0413E11E22DF0CF70010DFD9 /* LinearProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413E11D22DF0CF70010DFD9 /* LinearProgressBar.swift */; };
+		0413E12022DF0D940010DFD9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0413E11F22DF0D930010DFD9 /* Default-568h@2x.png */; };
+		0413E12222DF0E180010DFD9 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413E12122DF0E180010DFD9 /* Utility.swift */; };
 		CEEA760D22DE4BE00043882F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEA760C22DE4BE00043882F /* AppDelegate.swift */; };
 		CEEA760F22DE4BE00043882F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEA760E22DE4BE00043882F /* ViewController.swift */; };
 		CEEA761222DE4BE00043882F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEEA761022DE4BE00043882F /* Main.storyboard */; };
@@ -34,17 +37,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CEEA760922DE4BE00043882F /* CircularProgressSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircularProgressSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0413E11D22DF0CF70010DFD9 /* LinearProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinearProgressBar.swift; sourceTree = "<group>"; };
+		0413E11F22DF0D930010DFD9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0413E12122DF0E180010DFD9 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		CEEA760922DE4BE00043882F /* LinearProgressBarSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinearProgressBarSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEEA760C22DE4BE00043882F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEEA760E22DE4BE00043882F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CEEA761122DE4BE00043882F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEEA761322DE4BE20043882F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEEA761622DE4BE20043882F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEEA761822DE4BE20043882F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CEEA761D22DE4BE20043882F /* CircularProgressSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircularProgressSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEEA761D22DE4BE20043882F /* LinearProgressBarSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinearProgressBarSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEEA762122DE4BE20043882F /* CircularProgressSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressSwiftTests.swift; sourceTree = "<group>"; };
 		CEEA762322DE4BE20043882F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CEEA762822DE4BE20043882F /* CircularProgressSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircularProgressSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEEA762822DE4BE20043882F /* LinearProgressBarSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinearProgressBarSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEEA762C22DE4BE20043882F /* CircularProgressSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressSwiftUITests.swift; sourceTree = "<group>"; };
 		CEEA762E22DE4BE20043882F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,9 +83,10 @@
 		CEEA760022DE4BE00043882F = {
 			isa = PBXGroup;
 			children = (
-				CEEA760B22DE4BE00043882F /* CircularProgressSwift */,
-				CEEA762022DE4BE20043882F /* CircularProgressSwiftTests */,
-				CEEA762B22DE4BE20043882F /* CircularProgressSwiftUITests */,
+				0413E11F22DF0D930010DFD9 /* Default-568h@2x.png */,
+				CEEA760B22DE4BE00043882F /* LinearProgressBarSwift */,
+				CEEA762022DE4BE20043882F /* LinearProgressBarSwiftTests */,
+				CEEA762B22DE4BE20043882F /* LinearProgressBarSwiftUITests */,
 				CEEA760A22DE4BE00043882F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,50 +94,52 @@
 		CEEA760A22DE4BE00043882F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CEEA760922DE4BE00043882F /* CircularProgressSwift.app */,
-				CEEA761D22DE4BE20043882F /* CircularProgressSwiftTests.xctest */,
-				CEEA762822DE4BE20043882F /* CircularProgressSwiftUITests.xctest */,
+				CEEA760922DE4BE00043882F /* LinearProgressBarSwift.app */,
+				CEEA761D22DE4BE20043882F /* LinearProgressBarSwiftTests.xctest */,
+				CEEA762822DE4BE20043882F /* LinearProgressBarSwiftUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CEEA760B22DE4BE00043882F /* CircularProgressSwift */ = {
+		CEEA760B22DE4BE00043882F /* LinearProgressBarSwift */ = {
 			isa = PBXGroup;
 			children = (
 				CEEA760C22DE4BE00043882F /* AppDelegate.swift */,
 				CEEA760E22DE4BE00043882F /* ViewController.swift */,
+				0413E11D22DF0CF70010DFD9 /* LinearProgressBar.swift */,
+				0413E12122DF0E180010DFD9 /* Utility.swift */,
 				CEEA761022DE4BE00043882F /* Main.storyboard */,
 				CEEA761322DE4BE20043882F /* Assets.xcassets */,
 				CEEA761522DE4BE20043882F /* LaunchScreen.storyboard */,
 				CEEA761822DE4BE20043882F /* Info.plist */,
 			);
-			path = CircularProgressSwift;
+			path = LinearProgressBarSwift;
 			sourceTree = "<group>";
 		};
-		CEEA762022DE4BE20043882F /* CircularProgressSwiftTests */ = {
+		CEEA762022DE4BE20043882F /* LinearProgressBarSwiftTests */ = {
 			isa = PBXGroup;
 			children = (
 				CEEA762122DE4BE20043882F /* CircularProgressSwiftTests.swift */,
 				CEEA762322DE4BE20043882F /* Info.plist */,
 			);
-			path = CircularProgressSwiftTests;
+			path = LinearProgressBarSwiftTests;
 			sourceTree = "<group>";
 		};
-		CEEA762B22DE4BE20043882F /* CircularProgressSwiftUITests */ = {
+		CEEA762B22DE4BE20043882F /* LinearProgressBarSwiftUITests */ = {
 			isa = PBXGroup;
 			children = (
 				CEEA762C22DE4BE20043882F /* CircularProgressSwiftUITests.swift */,
 				CEEA762E22DE4BE20043882F /* Info.plist */,
 			);
-			path = CircularProgressSwiftUITests;
+			path = LinearProgressBarSwiftUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CEEA760822DE4BE00043882F /* CircularProgressSwift */ = {
+		CEEA760822DE4BE00043882F /* LinearProgressBarSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CEEA763122DE4BE20043882F /* Build configuration list for PBXNativeTarget "CircularProgressSwift" */;
+			buildConfigurationList = CEEA763122DE4BE20043882F /* Build configuration list for PBXNativeTarget "LinearProgressBarSwift" */;
 			buildPhases = (
 				CEEA760522DE4BE00043882F /* Sources */,
 				CEEA760622DE4BE00043882F /* Frameworks */,
@@ -140,14 +149,14 @@
 			);
 			dependencies = (
 			);
-			name = CircularProgressSwift;
+			name = LinearProgressBarSwift;
 			productName = CircularProgressSwift;
-			productReference = CEEA760922DE4BE00043882F /* CircularProgressSwift.app */;
+			productReference = CEEA760922DE4BE00043882F /* LinearProgressBarSwift.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CEEA761C22DE4BE20043882F /* CircularProgressSwiftTests */ = {
+		CEEA761C22DE4BE20043882F /* LinearProgressBarSwiftTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CEEA763422DE4BE20043882F /* Build configuration list for PBXNativeTarget "CircularProgressSwiftTests" */;
+			buildConfigurationList = CEEA763422DE4BE20043882F /* Build configuration list for PBXNativeTarget "LinearProgressBarSwiftTests" */;
 			buildPhases = (
 				CEEA761922DE4BE20043882F /* Sources */,
 				CEEA761A22DE4BE20043882F /* Frameworks */,
@@ -158,14 +167,14 @@
 			dependencies = (
 				CEEA761F22DE4BE20043882F /* PBXTargetDependency */,
 			);
-			name = CircularProgressSwiftTests;
+			name = LinearProgressBarSwiftTests;
 			productName = CircularProgressSwiftTests;
-			productReference = CEEA761D22DE4BE20043882F /* CircularProgressSwiftTests.xctest */;
+			productReference = CEEA761D22DE4BE20043882F /* LinearProgressBarSwiftTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CEEA762722DE4BE20043882F /* CircularProgressSwiftUITests */ = {
+		CEEA762722DE4BE20043882F /* LinearProgressBarSwiftUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CEEA763722DE4BE20043882F /* Build configuration list for PBXNativeTarget "CircularProgressSwiftUITests" */;
+			buildConfigurationList = CEEA763722DE4BE20043882F /* Build configuration list for PBXNativeTarget "LinearProgressBarSwiftUITests" */;
 			buildPhases = (
 				CEEA762422DE4BE20043882F /* Sources */,
 				CEEA762522DE4BE20043882F /* Frameworks */,
@@ -176,9 +185,9 @@
 			dependencies = (
 				CEEA762A22DE4BE20043882F /* PBXTargetDependency */,
 			);
-			name = CircularProgressSwiftUITests;
+			name = LinearProgressBarSwiftUITests;
 			productName = CircularProgressSwiftUITests;
-			productReference = CEEA762822DE4BE20043882F /* CircularProgressSwiftUITests.xctest */;
+			productReference = CEEA762822DE4BE20043882F /* LinearProgressBarSwiftUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +213,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CEEA760422DE4BE00043882F /* Build configuration list for PBXProject "CircularProgressSwift" */;
+			buildConfigurationList = CEEA760422DE4BE00043882F /* Build configuration list for PBXProject "LinearProgressBarSwift" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,9 +226,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CEEA760822DE4BE00043882F /* CircularProgressSwift */,
-				CEEA761C22DE4BE20043882F /* CircularProgressSwiftTests */,
-				CEEA762722DE4BE20043882F /* CircularProgressSwiftUITests */,
+				CEEA760822DE4BE00043882F /* LinearProgressBarSwift */,
+				CEEA761C22DE4BE20043882F /* LinearProgressBarSwiftTests */,
+				CEEA762722DE4BE20043882F /* LinearProgressBarSwiftUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -230,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEEA761722DE4BE20043882F /* LaunchScreen.storyboard in Resources */,
+				0413E12022DF0D940010DFD9 /* Default-568h@2x.png in Resources */,
 				CEEA761422DE4BE20043882F /* Assets.xcassets in Resources */,
 				CEEA761222DE4BE00043882F /* Main.storyboard in Resources */,
 			);
@@ -256,8 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0413E12222DF0E180010DFD9 /* Utility.swift in Sources */,
 				CEEA760F22DE4BE00043882F /* ViewController.swift in Sources */,
 				CEEA760D22DE4BE00043882F /* AppDelegate.swift in Sources */,
+				0413E11E22DF0CF70010DFD9 /* LinearProgressBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,12 +294,12 @@
 /* Begin PBXTargetDependency section */
 		CEEA761F22DE4BE20043882F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CEEA760822DE4BE00043882F /* CircularProgressSwift */;
+			target = CEEA760822DE4BE00043882F /* LinearProgressBarSwift */;
 			targetProxy = CEEA761E22DE4BE20043882F /* PBXContainerItemProxy */;
 		};
 		CEEA762A22DE4BE20043882F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CEEA760822DE4BE00043882F /* CircularProgressSwift */;
+			target = CEEA760822DE4BE00043882F /* LinearProgressBarSwift */;
 			targetProxy = CEEA762922DE4BE20043882F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -433,7 +445,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CircularProgressSwift/Info.plist;
+				INFOPLIST_FILE = LinearProgressBarSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,7 +462,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CircularProgressSwift/Info.plist;
+				INFOPLIST_FILE = LinearProgressBarSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -478,7 +490,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CircularProgressSwift.app/CircularProgressSwift";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinearProgressBarSwift.app/LinearProgressBarSwift";
 			};
 			name = Debug;
 		};
@@ -498,7 +510,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CircularProgressSwift.app/CircularProgressSwift";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinearProgressBarSwift.app/LinearProgressBarSwift";
 			};
 			name = Release;
 		};
@@ -543,7 +555,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CEEA760422DE4BE00043882F /* Build configuration list for PBXProject "CircularProgressSwift" */ = {
+		CEEA760422DE4BE00043882F /* Build configuration list for PBXProject "LinearProgressBarSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CEEA762F22DE4BE20043882F /* Debug */,
@@ -552,7 +564,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CEEA763122DE4BE20043882F /* Build configuration list for PBXNativeTarget "CircularProgressSwift" */ = {
+		CEEA763122DE4BE20043882F /* Build configuration list for PBXNativeTarget "LinearProgressBarSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CEEA763222DE4BE20043882F /* Debug */,
@@ -561,7 +573,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CEEA763422DE4BE20043882F /* Build configuration list for PBXNativeTarget "CircularProgressSwiftTests" */ = {
+		CEEA763422DE4BE20043882F /* Build configuration list for PBXNativeTarget "LinearProgressBarSwiftTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CEEA763522DE4BE20043882F /* Debug */,
@@ -570,7 +582,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CEEA763722DE4BE20043882F /* Build configuration list for PBXNativeTarget "CircularProgressSwiftUITests" */ = {
+		CEEA763722DE4BE20043882F /* Build configuration list for PBXNativeTarget "LinearProgressBarSwiftUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CEEA763822DE4BE20043882F /* Debug */,
