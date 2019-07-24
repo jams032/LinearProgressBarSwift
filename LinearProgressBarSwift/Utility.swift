@@ -1,9 +1,9 @@
 //
 //  Utility.swift
-//  PartiStaff
+//  CircularProgressSwift
 //
-//  Created by User Pc on 2/11/19.
-//  Copyright © 2019 FAQ Interactive Ltd. All rights reserved.
+//  Created by Jamshed on 2/11/19.
+//  Copyright © 2019 Jamshed Alam. All rights reserved.
 //
 
 import Foundation

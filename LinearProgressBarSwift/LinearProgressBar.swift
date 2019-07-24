@@ -99,10 +99,10 @@ public class LinearProgressBar: UIView {
         let ProgressbarWidth = 50
         let ProgressbarNumber :Int = Int(self.frame.width) / ProgressbarWidth
         self.progressBarIndicator.frame = CGRect(x: 0, y: 0, width: ProgressbarWidth, height: Int(heightForLinearBar))
-       // print(self.frame)
+        // print(self.frame)
         
         for index in 1...ProgressbarNumber {
-
+            
             UIView.animate(withDuration: animDuration, delay:0, options: [], animations: {
                 
                 if index == ProgressbarNumber  {
@@ -117,7 +117,7 @@ public class LinearProgressBar: UIView {
                 if index == ProgressbarNumber  {
                     
                     if (self.isAnimationRunning) {
-                       // print("Finished")
+                        // print("Finished")
                         self.configureAnimation()
                     }
                 }
